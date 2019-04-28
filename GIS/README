@@ -24,30 +24,25 @@ PREREQUISITES
 
 BUILD INSTRUCTIONS
 
-    1. Install the Proj4 library if you haven't already.
+    1. If using a linux package manager and already have proj version 4 installed
+        then ensure that it has the headers.  If not then Alien::Proj4 will run a
+        system install and not provide the headers.  If you are on Windows then
+        Alien::Proj4 will build them (Strawberry perl also provides them).  
 
-    2. Edit the Makefile.PL to point the $proj4_include_path and $proj4_lib_path variables
-        to your installation of the Proj4 library.
-
-    3. Make the makefiles with the command:
+    2. Make the makefiles with the command:
         shell> perl Makefile.PL
 
-    4. Build the software with the command:
+    3. Build the software with the command:
         shell> make
+    
+    4. Test the software with the command:
+        shell> make test
 
     5. Install the software with the command:
         shell> make install
 
-    6. Test the software (option) using the included script test_proj4.pl.
-        NOTE: There are no regression tests yet, but if something is wrong with the install,
-        it will probably break the test script.
-
 USAGE
 
     See the POD in the lib itself, and check out the test script.
-
-CHANGES
-
-    1.0: Inital version
 
 
