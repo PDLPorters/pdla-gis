@@ -1,0 +1,18 @@
+Changes
+GIS/Makefile.PL
+GIS/Proj.pd
+GIS/README
+GIS/TODO
+lib/PDLA/GIS.pm
+Transform/Makefile.PL
+Transform/Proj4.pd
+Transform/README
+Transform/TODO
+MANIFEST			This list of files
+MANIFEST.SKIP
+Makefile.PL
+t/00-report-prereqs.t
+t/01-checkmanifest.t
+t/gis_proj.t
+t/proj_transform.t
+t/proj_transform2.t
