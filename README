@@ -1,14 +1,16 @@
 NAME
 
-    PDLA::Transform::Proj
+    PDLA::GIS
 
 DESCRIPTION
 
-    This is a port of the Proj library to PDLA.
+    PDLA modules supporting Geographical Information Systems.
 
 COPYRIGHT NOTICE
 
-    Copyright 2003 Judd Taylor, USF Institute for Marine Remote Sensing (judd@marine.usf.edu).
+    Original copyright from PDL source:
+    
+    Copyright 2003-2019 Judd Taylor, USF Institute for Marine Remote Sensing (judd@marine.usf.edu).
     
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -22,6 +24,7 @@ PREREQUISITES
     Perl            (tested with 5.8.0)
     PDLA             (tested with 2.3.4 with BadVals)
 
+INSTALLATION
 
     1. If using a linux package manager and already have proj version 4 installed
         then ensure that it has the headers.  If not then Alien::Proj4 will run a
@@ -42,6 +45,6 @@ PREREQUISITES
 
 USAGE
 
-    See the POD in the lib itself, and check out the test script.
+    See the POD in the lib itself, and check out the test scripts.
 
 
